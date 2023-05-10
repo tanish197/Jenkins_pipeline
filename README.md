@@ -65,6 +65,16 @@
        
          • to make .env file just write 
             • sudo nano .env 
+            
+         • while installing packages you face problem then 
+            • mkdir discordBot
+              cd discordBot
+              npm init
+          // after using these commands, come out of directory if error occurs
+              cd ..
+          // now the run the command 
+              npm install discord.js axios dotenv
+          // now it will work
 
          • to see where it do login, so it will work on discord.com 
 
