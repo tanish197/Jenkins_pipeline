@@ -31,6 +31,9 @@ client.on('message', async msg => {
     case "ping":
       msg.reply("Pong!");
       break;
+     case "jain":
+      msg.reply("Tuc great ho!");
+      break; 
     //our meme command below
     case "!meme":
       msg.channel.send("Here's your meme!"); //Replies to user command
