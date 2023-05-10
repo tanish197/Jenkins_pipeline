@@ -35,20 +35,20 @@
    // Note; you should make a git repository either your project or cloned one anything doesn't matter.
    9. Write your Description and chhose Github project(becaouse we have to pull it from git) and provide the repository link.
    10. Choose the git and provide the same link of repo now we have to add credentials
-   11. Follow these steps before adding credentials:
-        - Go to EC2 server terminal and write ssh-keygen
-        - It will create the public and private key
-        - Enter cd .ssh
-        - cat id_rsa.pub (for public key)
-        - cat id_rsa (for private key)
-        - COPY BOTH
-        - Now go to Github and open settings and click on SSH key generation. Create new key and give a name and paste the public key there and save.
-        - Now get back to jenkins page and click on add credentials and choose SSh key with private key and give a name and enter the username which is "ubuntu' in this case and paste the private key and save.
-        - Now choose the credential made.
-        - edit the branch as per your repository. By default is */master
-        - Click apply and save.
-        - Now the build the job and check if it success. It should be successful if done no mistake.(Refer to SS:img 14)
-    12. Check if Jenkins and Github are integrated or not :
+   ### Follow these steps before adding credentials:
+     - Go to EC2 server terminal and write ssh-keygen
+     - It will create the public and private key
+     - Enter cd .ssh
+     - cat id_rsa.pub (for public key)
+     - cat id_rsa (for private key)
+     - COPY BOTH
+     - Now go to Github and open settings and click on SSH key generation. Create new key and give a name and paste the public key there and save.
+     - Now get back to jenkins page and click on add credentials and choose SSh key with private key and give a name and enter the username which is "ubuntu' in this case and paste the private key and save.
+     - Now choose the credential made.
+     - edit the branch as per your repository. By default is */master
+     - Click apply and save.
+     - Now the build the job and check if it success. It should be successful if done no mistake.(Refer to SS:img 14)
+    11. Check if Jenkins and Github are integrated or not :
         - cd /var/lib/jenkins/workspace/Jenkins-chatbot 
         - ls
         And you can see the files here now of git repository.
