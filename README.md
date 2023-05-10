@@ -6,7 +6,7 @@
    3. Check HTTPS connection under security because it is related to https.
    4. Click Launch
    5. Connect to EC2 server
-   6. Now run the following commands for further process:
+   ### Now run the following commands for further process:
        - sudo apt update
        // now will install java because jenkins in based upon java.
        - sudo apt install openjdk-11-jre
@@ -30,11 +30,11 @@
         - Now copy the public IPv4 of instance and browse it as for e.g.: 3.109.5.106:8080 
         // This will open Jenkins Welcome Page. Now, get the password and use it from using this command:
 	    - sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-   7. Complete the Jenkins Login proces.
-   8. Now create a job. Give it a name and choose a freestyle and click OK
+   6. Complete the Jenkins Login proces.
+   7. Now create a job. Give it a name and choose a freestyle and click OK
    // Note; you should make a git repository either your project or cloned one anything doesn't matter.
-   9. Write your Description and chhose Github project(becaouse we have to pull it from git) and provide the repository link.
-   10. Choose the git and provide the same link of repo now we have to add credentials
+   8. Write your Description and chhose Github project(becaouse we have to pull it from git) and provide the repository link.
+   9. Choose the git and provide the same link of repo now we have to add credentials
    ### Follow these steps before adding credentials:
      - Go to EC2 server terminal and write ssh-keygen
      - It will create the public and private key
@@ -48,7 +48,7 @@
      - edit the branch as per your repository. By default is */master
      - Click apply and save.
      - Now the build the job and check if it success. It should be successful if done no mistake.(Refer to SS:img 14)
-    11. Check if Jenkins and Github are integrated or not :
+  10. Check if Jenkins and Github are integrated or not :
         - cd /var/lib/jenkins/workspace/Jenkins-chatbot 
         - ls
         And you can see the files here now of git repository.
