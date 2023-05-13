@@ -48,7 +48,7 @@
      • edit the branch as per your repository. By default is */master
      • Click apply and save.
      • Now the build the job and check if it success. It should be successful if done no mistake.(Refer to SS:img 14)
-  10. Check if Jenkins and Github are integrated or not :
+  ### Check if Jenkins and Github are integrated or not :
         • cd /var/lib/jenkins/workspace/Jenkins-chatbot 
         • ls
         And you can see the files here now of git repository.
